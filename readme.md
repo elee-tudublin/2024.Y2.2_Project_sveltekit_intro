@@ -207,17 +207,47 @@ Also notice how the CSS is only applied to the home page and not the others.
 
 
 
-## 5. Exercise
+## 5. Event handling example
 
-Add a new page named `events`. Then add a table with some sample event data - similiar to the example below.
+This example demonstrates event handling in the application.
 
-This is in preperation for adding the actual data from Supabase in the next part. 
+1. A counter and a button will be added to the home page.
+2. When the button is clicked, the counter will `increment`.
+3. Another button `reset` will set `counter = 0`
 
-![exercise_example](assets/exercise_example.png)
+
+
+![20.counter_page](assets/20.counter_page.png)
+
+1. A variable, named `counter` is used to keep track of the current value. Initially, when the page loads, its value is 0.
+
+2. Two functions, `increment_counter()` and `reset_counter()` are used to update or reset the counter value.
 
 
 
-## 6. References
+#### Declare the variable and add the functions to the `script` section of the page.
+
+![21.counter_script](assets/21.counter_script.png)
+
+
+
+#### Bind the variable and hancle click events in the page
+
+1. Bind the counter value in an input field for display (or update).
+2. Call the functions when the buttons are clicked.
+
+![bind counter value and and click handlers](./assets/22.update_page.png)
+
+
+
+## 6. Exercises
+
+1. Add another button, and functuinality to decrement the counter (subtract 1 from the counter value when a button is clicked).
+2. Use Bootstrap CSS tostyle the text input and buttons.
+
+
+
+## 7. References
 
 SvelteKit Docs: https://kit.svelte.dev/docs/introduction
 
