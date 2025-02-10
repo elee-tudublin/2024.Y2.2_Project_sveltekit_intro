@@ -85,23 +85,14 @@ You will be asked a series of question:
 
 3. Choose language: **Select JavaScript**
 
-4. a) Choose whether to use ESlint: **Choose No for this example** (empty selection box)
+4. a) Choose the following options:
 
-   b) Choose whether to use Prettier formatting: **Choose Yes** (green filled selection box)
-
-​	c) Testing options: **Choose No for this example**
 
 ![2.Sveltekit_npm_create](./assets/2.Sveltekit_npm_create.png)
 
 
 
-The new SvelteKitapp is now created: run **npm install** and **npm run dev** to start it
-
-
-
-![9.new_app_created](./assets/mpm_install.png)
-
-8. Running the app
+5. The new SvelteKitapp is now created: run **npm install** and **npm run dev** to start it
 
 ![10.npm_run_dev](./assets/10.npm_run_dev.png)
 
