@@ -74,7 +74,7 @@ Open a `new terminal` from the **Terminal Menu** in VS Code.
 1. Execute the following command in a VS Code terminal and press `enter` to create the application
 
 ```bash
-npm create svelte@latest
+npx sv create
 ```
 
 You will be asked a series of question:
@@ -85,7 +85,7 @@ You will be asked a series of question:
 
 3. Choose language: **Select JavaScript**
 
-4. a) Choose the following options:
+4. a) Choose the following options (**see the grey text** after each question):
 
 
 ![2.Sveltekit_npm_create](./assets/2.Sveltekit_npm_create.png)
